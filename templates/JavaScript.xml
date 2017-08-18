@@ -1,0 +1,64 @@
+<templateSet group="JavaScript">
+  <template name="log" value="console.log('-------  $FILENAME$  ----------- ', $STR$)&#10;$END$" description="log with file name" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="STR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if($CON$){&#10;  $CODE$&#10;}&#10;$END$" description="if..." toReformat="false" toShortenFQNames="true">
+    <variable name="CON" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="else" value="else {&#10;  $CODE$&#10;}&#10;$END$" description="else..." toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="elseif" value="else if ($COND$) {&#10;  $CODE$&#10;}&#10;$END$" description="else..." toReformat="false" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="apidoc" value="/**&#10; * $GET$ $POST$ $UPDATE$ $DELETE$&#10; * @api {$METHOD$} /api/$URL$ $API_NAME$&#10; * @apiVersion $VERSION$&#10; * @apiName $URL$&#10; * @apiGroup $API_GROUP$&#10; *&#10; * @apiDescription $API_DESC$&#10; *&#10; &#10; * @apiParam {String} $PARAM$ $REQUIRED$$PARAM_DESC$&#10; *&#10; * @apiSuccessExample $SUCCESS$:&#10; *     {&#10; *       res:'SUCCESS',&#10; *       data:{&#10; *          $SUCCESS_DATA$&#10; *       }&#10; *     }&#10; * @apiError (接口错误返回值) $ERROR_COND$ $ERROR_DESC$&#10; *&#10; * @apiErrorExample $ERROR_COND$:&#10; *     {&#10; *       res:'FAIL',&#10; *       error:{&#10; *         code:$ERROR_CODE$,&#10; *         message:'$EOORE_MESSAGE$'&#10; *       }&#10; *     }&#10; */" description="add api doc comment" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="enum(GET,POST,UPDATE,DELETE)" defaultValue="" alwaysStopAt="true" />
+    <variable name="GET" expression="" defaultValue="&quot;GET&quot;" alwaysStopAt="false" />
+    <variable name="POST" expression="" defaultValue="&quot;POST&quot;" alwaysStopAt="false" />
+    <variable name="UPDATE" expression="" defaultValue="&quot;PUT&quot;" alwaysStopAt="false" />
+    <variable name="DELETE" expression="" defaultValue="&quot;DELETE&quot;" alwaysStopAt="false" />
+    <variable name="URL" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="API_NAME" expression="camelCase('接口名称')" defaultValue="&quot;接口名称&quot;" alwaysStopAt="true" />
+    <variable name="VERSION" expression="" defaultValue="&quot;1.0.0&quot;" alwaysStopAt="false" />
+    <variable name="API_GROUP" expression="" defaultValue="&quot;AP&quot;" alwaysStopAt="false" />
+    <variable name="API_DESC" expression="" defaultValue="&quot;接口描述&quot;" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="&quot;parameter&quot;" alwaysStopAt="true" />
+    <variable name="REQUIRED" expression="" defaultValue="&quot;&lt;strong style=\&quot;color:red\&quot;&gt;(必填)&lt;/strong&gt;&quot;" alwaysStopAt="true" />
+    <variable name="PARAM_DESC" expression="" defaultValue="&quot;参数含义&quot;" alwaysStopAt="true" />
+    <variable name="SUCCESS" expression="" defaultValue="&quot;请求成功&quot;" alwaysStopAt="true" />
+    <variable name="SUCCESS_DATA" expression="" defaultValue="&quot;成功返回值&quot;" alwaysStopAt="true" />
+    <variable name="ERROR_COND" expression="" defaultValue="&quot;ErrorInEnglish&quot;" alwaysStopAt="true" />
+    <variable name="ERROR_DESC" expression="" defaultValue="&quot;错误描述&quot;" alwaysStopAt="true" />
+    <variable name="ERROR_CODE" expression="" defaultValue="&quot;错误码&quot;" alwaysStopAt="true" />
+    <variable name="EOORE_MESSAGE" expression="" defaultValue="&quot;错误信息&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="switchCase" value="switch($ARG$){&#10;  case $COND1$ :&#10;    $CODE1$&#10;    break&#10;  case $COND2$ :&#10;    $CODE2$&#10;    break&#10;  default:&#10;    $CODE3$&#10;}&#10;$END$" description="switch...case..." toReformat="true" toShortenFQNames="true">
+    <variable name="ARG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COND1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COND2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
