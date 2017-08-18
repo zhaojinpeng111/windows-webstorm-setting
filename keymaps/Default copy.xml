@@ -41,6 +41,10 @@
     <keyboard-shortcut first-keystroke="shift alt 9" />
     <keyboard-shortcut first-keystroke="ctrl 9" />
   </action>
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt f9" />
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="shift alt f10" />
     <keyboard-shortcut first-keystroke="f10" />
@@ -82,6 +86,7 @@
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="Inline" />
+  <action id="Move" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="ctrl alt n" />
@@ -99,6 +104,9 @@
     <keyboard-shortcut first-keystroke="ctrl f5" />
     <keyboard-shortcut first-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
