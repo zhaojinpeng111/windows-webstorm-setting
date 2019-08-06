@@ -1,0 +1,19 @@
+<application>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="15" />
+    <option name="FONT_FAMILY" value="Meslo LG M for Powerline" />
+    <option name="LINE_SPACING" value="1.0" />
+    <option name="SECONDARY_FONT_FAMILY" value="YaHei Consolas Hybrid" />
+  </component>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="ECMAScript 6" value="true" />
+        <entry key="Vue" value="true" />
+      </map>
+    </option>
+    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="IS_DND_ENABLED" value="false" />
+    <option name="REFRAIN_FROM_SCROLLING" value="true" />
+  </component>
+</application>

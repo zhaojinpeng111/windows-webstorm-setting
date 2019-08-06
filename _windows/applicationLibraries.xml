@@ -1,0 +1,42 @@
+<application>
+  <component name="libraryTable">
+    <library name="@types/better-sqlite3" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/express" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/ioredis" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/joi" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/lodash" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/mongoose" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/socket.io" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/socket.io-client" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="Bundled Protobuf Distribution">
+      <CLASSES />
+      <SOURCES>
+        <root url="jar://$APPLICATION_PLUGINS_DIR$/protobuf-jetbrains-plugin/lib/protobuf-java-3.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</application>

@@ -1,0 +1,18 @@
+<templateSet group="JavaScript">
+  <template name="logl" value="console.log(&quot;===$LINENUMBER$===&quot;, $Variable$)" description="log line number" toReformat="false" toShortenFQNames="true">
+    <variable name="LINENUMBER" expression="lineNumber()" defaultValue="" alwaysStopAt="true" />
+    <variable name="Variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="afc" value="($ARGS$)=&gt;{&#10;  $FUNCTION_BODY$&#10;}" description="arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION_BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
