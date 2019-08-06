@@ -6,6 +6,7 @@
   <component name="MaterialThemeConfig">
     <option name="accentScrollbars" value="false" />
     <option name="compactDropdowns" value="true" />
+    <option name="darkTitleBar" value="true" />
     <option name="isCompactMenus" value="true" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isCompactTables" value="true" />
