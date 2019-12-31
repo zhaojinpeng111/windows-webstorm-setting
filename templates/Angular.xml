@@ -51,7 +51,6 @@
   </template>
   <template name="a-routerLink" value="[routerLink]=&quot;['/$routePath$']&quot; routerLinkActive=&quot;$router_link-active$&quot; $END$" description="Angular routerLink" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="routePath" expression="" defaultValue="&quot;routePath&quot;" alwaysStopAt="true" />
-    <variable name="router_link-active" expression="" defaultValue="&quot;router-link-active&quot;" alwaysStopAt="true" />
     <context />
   </template>
   <template name="a-routerLink-param" value="[routerLink]=&quot;['$routePath$', $routeParameterValue$]&quot;&#10;routerLinkActive=&quot;$router_link-active$&quot;$END$" description="Angular routerLink with a route parameter" toReformat="true" toShortenFQNames="true" deactivated="true">

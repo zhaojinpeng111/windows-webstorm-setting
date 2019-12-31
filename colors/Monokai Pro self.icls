@@ -1,21 +1,17 @@
-<scheme name="_@user_Monokai Pro" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
+<scheme name="Monokai Pro self" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2019-03-28T14:11:12</property>
+    <property name="created">2019-12-31T10:44:29</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2019.1.0.0</property>
-    <property name="modified">2019-12-31T10:42:27</property>
-    <property name="originalScheme">Monokai Pro</property>
+    <property name="ideVersion">2019.3.1.0.0</property>
+    <property name="modified">2019-12-31T10:57:20</property>
+    <property name="originalScheme">_@user_Monokai Pro</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="Monospaced" />
-  <option name="CONSOLE_FONT_SIZE" value="16" />
-  <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="a9dc76" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="fcfcfa" />
-    <option name="CARET_ROW_COLOR" value="3b3539" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="2d2a2e" />
+    <option name="CARET_ROW_COLOR" value="252525" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="191919" />
     <option name="DELETED_LINES_COLOR" value="ff6188" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
@@ -41,7 +37,7 @@
     <option name="FILESTATUS_addedOutside" value="a9dc76" />
     <option name="FILESTATUS_changelistConflict" value="f65f87" />
     <option name="FILESTATUS_modifiedOutside" value="78dce8" />
-    <option name="GUTTER_BACKGROUND" value="2d2a2e" />
+    <option name="GUTTER_BACKGROUND" value="191919" />
     <option name="INDENT_GUIDE" value="403e41" />
     <option name="INFORMATION_HINT" value="403e41" />
     <option name="LINE_NUMBERS_COLOR" value="5b595c" />
@@ -360,7 +356,7 @@
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ff6188" />
+        <option name="FOREGROUND" value="ff463d" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -1222,7 +1218,7 @@
     </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ff6188" />
+        <option name="FOREGROUND" value="ff4e5f" />
       </value>
     </option>
     <option name="LUA_FIELD">
@@ -2690,7 +2686,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="fcfcfa" />
-        <option name="BACKGROUND" value="212121" />
+        <option name="BACKGROUND" value="191919" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>

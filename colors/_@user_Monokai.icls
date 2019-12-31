@@ -4,18 +4,9 @@
     <property name="created">2018-07-31T12:15:48</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2019-04-19T11:51:35</property>
+    <property name="modified">2019-12-31T10:42:47</property>
     <property name="originalScheme">Monokai</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.1" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Microsoft YaHei" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
-  </font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="YaHei Consolas Hybrid" />
     <option name="EDITOR_FONT_SIZE" value="16" />
