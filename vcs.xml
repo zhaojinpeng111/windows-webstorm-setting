@@ -74,6 +74,10 @@
           <option name="url" value="git@gitlab.com:zjp2job/multi-translator.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitlab.com:Catelina123/study.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Administrator\WebstormProjects" />
