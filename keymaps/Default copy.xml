@@ -12,6 +12,7 @@
     <keyboard-shortcut first-keystroke="shift alt f10" />
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="ContextHelp" />
   <action id="DecrementWindowHeight" />
   <action id="Editor EditorTranslateAction">
     <keyboard-shortcut first-keystroke="alt t" />
