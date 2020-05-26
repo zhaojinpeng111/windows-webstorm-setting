@@ -1,0 +1,6 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://plugins.intellij.net/xstructure/ns/xstructure_1_0.xsd" location="$APPLICATION_HOME_DIR$/jbr/bin/file:/C:/Users/zhaoj/AppData/Local/JetBrains/Toolbox/apps/WebStorm/ch-0/201.7223.93.plugins/xstructure/lib/xstructure.jar!/org/sylfra/idea/plugins/xstructure/resources/schemas/xstructure_1_0.xsd" />
+    <resource url="http://plugins.intellij.net/xstructure/ns/xstructure_1_1.xsd" location="$APPLICATION_HOME_DIR$/jbr/bin/file:/C:/Users/zhaoj/AppData/Local/JetBrains/Toolbox/apps/WebStorm/ch-0/201.7223.93.plugins/xstructure/lib/xstructure.jar!/org/sylfra/idea/plugins/xstructure/resources/schemas/xstructure_1_1.xsd" />
+  </component>
+</application>
