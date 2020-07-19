@@ -1,7 +1,6 @@
 <application>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="14" />
-    <option name="FONT_FAMILY" value="Meslo LG M for Powerline" />
     <option name="SECONDARY_FONT_FAMILY" value="YaHei Consolas Hybrid" />
   </component>
   <component name="EditorSettings">
@@ -14,5 +13,8 @@
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="IS_DND_ENABLED" value="false" />
     <option name="REFRAIN_FROM_SCROLLING" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\b(todo|fixme)\b.*" />
   </component>
 </application>
