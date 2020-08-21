@@ -36,16 +36,6 @@
   <action id="IncrementWindowHeight" />
   <action id="Inline" />
   <action id="IntroduceField" />
-  <action id="MoveLineDown">
-    <keyboard-shortcut first-keystroke="shift alt down" />
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
-  </action>
-  <action id="MoveLineUp">
-    <keyboard-shortcut first-keystroke="shift alt up" />
-    <keyboard-shortcut first-keystroke="shift ctrl up" />
-  </action>
-  <action id="MoveStatementDown" />
-  <action id="MoveStatementUp" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="ctrl alt n" />
