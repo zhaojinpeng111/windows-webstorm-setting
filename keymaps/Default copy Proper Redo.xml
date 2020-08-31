@@ -33,9 +33,22 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="HideActiveWindow" />
   <action id="IncrementWindowHeight" />
   <action id="Inline" />
   <action id="IntroduceField" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="ctrl alt n" />
@@ -52,11 +65,17 @@
   </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="RestoreDefaultLayout">
+    <keyboard-shortcut first-keystroke="shift escape" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift alt 2" />
+  </action>
+  <action id="StoreDefaultLayout">
+    <keyboard-shortcut first-keystroke="shift f12" />
   </action>
   <action id="ToolWindowsGroup">
     <keyboard-shortcut first-keystroke="alt back_quote" />
