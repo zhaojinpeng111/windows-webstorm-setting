@@ -15,4 +15,15 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="///" value="/**&#10; * FileName: $FILENAME$&#10; * Time: $DATE$ $TIME$&#10; * Creator: $USER$&#10; * Description: $DESC$&#10; */&#10; &#10;$START$" description="file desc" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="false" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
