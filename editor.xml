@@ -27,4 +27,8 @@
     <option name="COLLAPSE_ARRAY_LITERALS" value="true" />
     <option name="COLLAPSE_XML_LITERALS" value="true" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+  </component>
 </application>
