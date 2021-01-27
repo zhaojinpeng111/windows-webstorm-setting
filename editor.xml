@@ -19,6 +19,7 @@
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="ENABLE_RENDERED_DOC" value="true" />
+    <option name="BIDI_TEXT_DIRECTION" value="LTR" />
   </component>
   <component name="JSCodeFoldingSettings">
     <option name="collapseArrayLiterals" value="true" />
