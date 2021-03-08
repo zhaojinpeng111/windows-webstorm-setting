@@ -1,8 +1,5 @@
 <application>
   <component name="RainbowSettings">
-    <option name="doNOTRainbowifyBigFiles" value="false" />
-    <option name="doNOTRainbowifyBracketsWithoutContent" value="true" />
-    <option name="doNOTRainbowifyTemplateString" value="true" />
     <option name="version" value="6.16" />
   </component>
 </application>
