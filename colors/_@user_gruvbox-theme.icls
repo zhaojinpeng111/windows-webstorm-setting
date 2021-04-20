@@ -4,7 +4,7 @@
     <property name="created">2019-12-31T10:26:52</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2019.3.1.0.0</property>
-    <property name="modified">2019-12-31T10:32:56</property>
+    <property name="modified">2021-04-20T10:37:34</property>
     <property name="originalScheme">gruvbox-theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -580,6 +580,41 @@
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="83a598" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_1">
+      <value>
+        <option name="BACKGROUND" value="37372a" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_2">
+      <value>
+        <option name="BACKGROUND" value="2e372e" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_3">
+      <value>
+        <option name="BACKGROUND" value="372e37" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_4">
+      <value>
+        <option name="BACKGROUND" value="2b3636" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_5">
+      <value>
+        <option name="BACKGROUND" value="483d3d" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_6">
+      <value>
+        <option name="BACKGROUND" value="48393a" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_ERROR">
+      <value>
+        <option name="BACKGROUND" value="432626" />
       </value>
     </option>
     <option name="INFO_ATTRIBUTES">
