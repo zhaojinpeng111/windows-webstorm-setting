@@ -21,6 +21,7 @@
     </option>
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
+    <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
     <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="BIDI_TEXT_DIRECTION" value="LTR" />
   </component>
